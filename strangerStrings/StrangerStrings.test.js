@@ -54,6 +54,7 @@ test("return the last 3 characters of `input`", () => {
     // When
     let actual = strangerStrings.getSuffix(input);
     //Then
+    let lastLetter = input.charAt(input)
     expect(actual).toEqual(expected);
 });
 
@@ -61,7 +62,7 @@ test("return the last 3 characters of `input`", () => {
 test("return the middle character of `inputValue`", () => {
     // Given
     let strangerStrings = new StrangerStrings();
-    let inputValue = 'MethodMan';
+    let input = 'MethodMan';
 
     let expected = "o";
 

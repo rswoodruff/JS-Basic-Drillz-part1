@@ -1,20 +1,20 @@
 class MathUtilities {
 
 
-    add(baseValue, valueToAdd){
-        return -1;
+    add(baseValue, valueToAdd) {
+        return baseValue + valueToAdd;
     }
 
-    subtract(baseValue, valueToAdd){
-        return -1;
+    subtract(baseValue, valueToAdd) {
+        return baseValue - valueToAdd;
     }
 
-    divide(baseValue, valueToAdd){
-        return -1;
+    divide(baseValue, valueToAdd) {
+        return baseValue / valueToAdd;
     }
 
-    multiply(baseValue, valueToAdd){
-        return -1;
+    multiply(baseValue, valueToAdd) {
+        return baseValue * valueToAdd;
     }
 }
 
