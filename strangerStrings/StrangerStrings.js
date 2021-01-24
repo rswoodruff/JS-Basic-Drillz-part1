@@ -19,7 +19,7 @@ class StrangerStrings {
     getSuffix(input) {
         let lastThreeChar = "";
         for (let i = input.length -1; i >= 0; i--) {
-            if (i >= 3) {
+            if (i >= input.length -3) {
                 lastThreeChar += input[i];
             }    
         }
